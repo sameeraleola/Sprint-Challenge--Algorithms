@@ -25,8 +25,6 @@ c)  def bunnyEars(bunnies):
 
       return 2 + bunnyEars(bunnies-1)   # time:O(1) 
 ----
-Answer: The time complexity for this code snippet is O(n)
-
 Answer c: The time complexity for this code snippet is O(n)
 
 ## Exercise II
