@@ -7,7 +7,7 @@ a)  a = 0                 # time:O(1)
     while (a < n * n * n):  # time:O(n)
       a = a + n * n       # time:O(1) 
 ----
-Answer: The time complexity for this code snippet is O(n)
+Answer a: The time complexity for this code snippet is O(n)
 
 
 b)  sum = 0         # time:O(1) 
@@ -16,7 +16,7 @@ b)  sum = 0         # time:O(1)
       while j < n:   # time:O(log(n))
         sum += 1    # time:O(1)
 ----
-Answer: The time complexity for this code snippet is O(nlog(n))
+Answer b: The time complexity for this code snippet is O(nlog(n))
 
 
 c)  def bunnyEars(bunnies):
@@ -27,7 +27,7 @@ c)  def bunnyEars(bunnies):
 ----
 Answer: The time complexity for this code snippet is O(n)
 
-# The time complexity for code snippet c) is O(n)
+Answer c: The time complexity for this code snippet is O(n)
 
 ## Exercise II
 A solution for this exercise would be to use a binary search which has a time complexity of O(log(n)):
